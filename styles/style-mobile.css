@@ -9,7 +9,7 @@ html {
 body {
     /*border: solid 3px red;*/ 
     width: 100%;       
-    max-width: 800px;
+    max-width: 100vw;
     min-width: 300px;
     
     /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
