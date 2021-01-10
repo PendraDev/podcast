@@ -8,9 +8,8 @@ html {
 }
 body {
     /*border: solid 3px red;*/ 
-    width: 100vw;
-    height: 100vh;   
-    max-width: 430px;
+    width: 100%;       
+    max-width: 800px;
     min-width: 300px;
     
     /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
