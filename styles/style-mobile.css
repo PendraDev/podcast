@@ -7,9 +7,9 @@ html {
     font-size: 62.5%;
 }
 body {
-    /*border: solid 3px red;*/
-    
-    width: 375px;
+    /*border: solid 3px red;*/    
+    max-width: 430px;
+    min-width: 300px;
     /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
 
 }
@@ -43,13 +43,16 @@ body {
     font-family: 'IBM Plex Mono', monospace;
 }
 /*Boton sec1*/
+a {
+    width: 90%;
+}
 .myButton {  
-    margin: auto;   
+      
     font-size: 16px;
     line-height: 22px ;
     font-weight:bold;
     font-family: 'IBM Plex Mono', monospace;
-	padding:11px 95px;
+	padding:11px 50px;
     text-decoration:none; 
     text-align: center;
     background-color:#00F3BB;	
@@ -87,9 +90,13 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
 }
-iframe {
-    border-radius: 10px;
-    margin: 5px 0px;
+iframe {  
+    width: 90%; 
+    margin: 5px 0;  
+    border-radius: 10px;    
+}
+.containerframes {
+    
 }
 
 .sec3 {
@@ -97,8 +104,9 @@ iframe {
     background: white;
 }
 .sec3 img {
-    
-    width: 360px;
+    display: block;
+    margin: auto;
+    width: 80%;
     transform: skew(0deg, 5deg) translateY(-80PX) ;
     ;
 }
@@ -134,6 +142,7 @@ iframe {
     color:black;
 }
 .gallery img {
+    display: flex;
     width: 100%;
     margin: 0px;
 }
