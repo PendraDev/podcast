@@ -7,8 +7,9 @@ html {
     font-size: 62.5%;
 }
 body {
-    border: solid 3px red;
-    width: 375px;
+    /*border: solid 3px red;*/
+    width: 100%;
+    max-width: 375px;
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 
 }
@@ -16,8 +17,8 @@ body {
 .sec1 {
     width: 100%;
     background:white;
-    padding: 100px 0;
-    transform: skew(0deg, -5deg) translateY(-50px);
+    padding: 200px 0 40px 0;
+    transform: skew(0deg, -5deg) translateY(-90px);
 }
 
 .container1 {
@@ -68,9 +69,13 @@ body {
 /*Termina Boton sec1*/
 
 .sec2 {
-    
+    transform: skew(0deg, -5deg) translateY(-50px);
     padding-left: 30px;
+    padding-bottom: 120px;
     
+}
+.container2 {
+    transform: skew(0deg, 5deg);
 }
 .sec2 h2 {
     margin-bottom: 30px;
@@ -83,4 +88,50 @@ body {
 iframe {
     border-radius: 10px;
     margin: 5px 0px;
+}
+
+.sec3 {
+    transform: skew(0deg, -5deg) translateY(-50px);
+    background: white;
+}
+.sec3 img {
+    
+    width: 360px;
+    transform: skew(0deg, 5deg) translateY(-80PX) ;
+    ;
+}
+.container3 {
+    transform: skew(0deg, 5deg) translateY(-70PX);
+}
+.sec3 h2 {
+    padding-left: 30px;    
+    font-weight: 500;
+    line-height: 42px;
+    font-size: 3.6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+}
+.container3 p {    
+    width: 90%;
+    padding: 10px 0 50px 30px;
+    line-height: 22px;
+    font-size: 1.4rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.sec4 {
+    transform: translateY(-70px);
+    background: white;
+}
+.sec4 h2 {
+    padding-left: 30px;
+    padding-bottom: 20px;    
+    font-weight: 500;
+    line-height: 42px;
+    font-size: 3.6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+}
+.gallery img {
+    width: 100%;
+    margin: 0px;
 }
