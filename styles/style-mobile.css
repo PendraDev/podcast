@@ -10,6 +10,7 @@ body {
     /*border: solid 3px red;*/    
     max-width: 430px;
     min-width: 300px;
+    overflow: hidden;
     /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
 
 }
