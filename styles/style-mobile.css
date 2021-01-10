@@ -29,7 +29,7 @@ body {
 .container1 h1 {
     padding: 15px 0 ;    
     line-height: 42px;
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .container1 h1 span {
@@ -39,7 +39,7 @@ body {
     width: 90%;
     padding: 10px 0 50px 0;
     line-height: 22px;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-family: 'IBM Plex Mono', monospace;
 }
 /*Boton sec1*/
@@ -82,11 +82,12 @@ a {
     transform: skew(0deg, 5deg);
 }
 .sec2 h2 {
-    padding-top: 30px ;
-    margin-bottom: 30px;
+
+    margin: 30px 0;
+    padding-top: 30px;
     font-weight: 500;
     line-height: 42px;
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
 }
@@ -117,7 +118,7 @@ iframe {
     padding-left: 30px;    
     font-weight: 500;
     line-height: 42px;
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
     color:black;
 }
@@ -125,7 +126,7 @@ iframe {
     width: 90%;
     padding: 0 0 0 30px;
     line-height: 22px;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-family: 'IBM Plex Mono', monospace;
 }
 .sec4 {
@@ -137,7 +138,7 @@ iframe {
     padding-bottom: 20px;    
     font-weight: 500;
     line-height: 42px;
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
     color:black;
 }
