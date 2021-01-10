@@ -48,9 +48,8 @@ body {
 a {
     width: 90%;
 }
-.myButton {  
-      
-    font-size: 16px;
+.myButton {      
+    font-size: 1.6em;
     line-height: 22px ;
     font-weight:bold;
     font-family: 'IBM Plex Mono', monospace;
@@ -60,8 +59,7 @@ a {
     background-color:#00F3BB;	
 	display:inline-block;
 	cursor:pointer;
-	color:black;
-	
+	color:black;	
 }
 .myButton:hover {
 	background:linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
@@ -98,9 +96,7 @@ iframe {
     margin: 5px 0;  
     border-radius: 10px;    
 }
-.containerframes {
-    
-}
+
 
 .sec3 {
     transform: skew(0deg, -5deg) translateY(-50px);
@@ -161,7 +157,7 @@ iframe {
     } 
     .sec2 h2 {
         margin: 50px 0;
-        padding-top: 60px;
+        padding-top: 70px;
         font-size: 6.5em;
         line-height: 75px;
     }
@@ -185,4 +181,7 @@ iframe {
         width: 100%;
         height: 850px;
     } 
+    .myButton {      
+        font-size: 3.5em;
+        line-height: 37px ;
   }
