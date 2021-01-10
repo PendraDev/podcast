@@ -8,9 +8,9 @@ html {
 }
 body {
     /*border: solid 3px red;*/
-    width: 100%;
-    max-width: 375px;
-    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    
+    width: 375px;
+    /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
 
 }
 
@@ -18,7 +18,7 @@ body {
     width: 100%;
     background:white;
     padding: 200px 0 40px 0;
-    transform: skew(0deg, -5deg) translateY(-90px);
+    transform: skew(0deg, -5deg) translateY(-70px);
 }
 
 .container1 {
@@ -69,7 +69,8 @@ body {
 /*Termina Boton sec1*/
 
 .sec2 {
-    transform: skew(0deg, -5deg) translateY(-50px);
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skew(0deg, -5deg) translateY(-60px);
     padding-left: 30px;
     padding-bottom: 120px;
     
@@ -78,6 +79,7 @@ body {
     transform: skew(0deg, 5deg);
 }
 .sec2 h2 {
+    padding-top: 30px ;
     margin-bottom: 30px;
     font-weight: 500;
     line-height: 42px;
@@ -113,7 +115,7 @@ iframe {
 }
 .container3 p {    
     width: 90%;
-    padding: 10px 0 50px 30px;
+    padding: 0 0 0 30px;
     line-height: 22px;
     font-size: 1.4rem;
     font-family: 'IBM Plex Mono', monospace;
