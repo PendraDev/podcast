@@ -6,3 +6,81 @@
 html {
     font-size: 62.5%;
 }
+body {
+    border: solid 3px red;
+    width: 375px;
+    background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+}
+
+.sec1 {
+    width: 100%;
+    background:white;
+    padding: 100px 0;
+    transform: skew(0deg, -5deg) translateY(-50px);
+}
+
+.container1 {
+    width: 100%;
+    padding-left: 30px;
+    transform: skew(0deg, 5deg);
+}
+.container1 h1 {
+    padding: 15px 0 ;    
+    line-height: 42px;
+    font-size: 3.6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.container1 h1 span {
+    text-decoration: line-through;
+}
+.container1 p {
+    width: 90%;
+    padding: 10px 0 50px 0;
+    line-height: 22px;
+    font-size: 1.4rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+/*Boton sec1*/
+.myButton {  
+    margin: auto;   
+    font-size: 16px;
+    line-height: 22px ;
+    font-weight:bold;
+    font-family: 'IBM Plex Mono', monospace;
+	padding:11px 95px;
+    text-decoration:none; 
+    text-align: center;
+    background-color:#00F3BB;	
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	
+}
+.myButton:hover {
+	background:linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+	background-color:#00F3BB;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*Termina Boton sec1*/
+
+.sec2 {
+    
+    padding-left: 30px;
+    
+}
+.sec2 h2 {
+    margin-bottom: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    font-size: 3.6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+iframe {
+    border-radius: 10px;
+    margin: 5px 0px;
+}
