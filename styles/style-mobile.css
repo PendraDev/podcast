@@ -149,3 +149,34 @@ iframe {
     width: 100%;
     margin: 0px;
 }
+
+@media screen and (min-width: 601px) {
+    .sec1 h1 {
+      font-size: 6.5em;
+      line-height: 75px;
+    }
+    .sec1 p {
+        font-size: 3em;
+        line-height: 32px;
+    } 
+    .sec2 h2 {
+        font-size: 6.5em;
+        line-height: 75px;
+    }
+    .sec3 h2 {
+        font-size: 6.5em;
+        line-height: 75px;
+    }
+    .sec3 p {
+        font-size: 3em;
+        line-height: 32px;
+    }  
+    .sec4 h2 {
+        font-size: 6.5em;
+        line-height: 75px;
+    }  
+    iframe {
+        width: 800px;
+        height: 750px;
+    } 
+  }
