@@ -171,14 +171,21 @@ iframe {
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
 }
+
 .sec6 {
     height: 300px;    
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     transform: skew(0deg, -5deg) translateY(70px);
 }
+
 .container6 {
     transform: skew(0deg, 5deg) translateY(50PX);
     padding: 0 30px;
+}
+.fondo {
+    height: 50px;
+    background:white;
+    transform: skew(0deg, 0deg) translateY(-40PX);
 }
 .sec6 h2 { 
     
@@ -195,8 +202,26 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding:11px 25px;
 }
-
+footer {
+    
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+footer h3 {
+    text-align: center;
+    font-size: 1.4em;
+}
+.fontawesome {
+    margin: auto;
+    width: 55%;
+    padding-left: 7px;    
+      
+}
+.fab {
+   
+}
 @media screen and (min-width: 601px) {
     .container1 {
         padding-left: 70px;
@@ -250,6 +275,16 @@ iframe {
         line-height: 80px;
     }        
     .sec5 p {        
+        font-size: 3.5em;
+        line-height: 37px;
+    }
+    
+    .container6 h2 {
+        padding-left: 70px;
+        font-size: 7em;
+        line-height: 80px;
+    }        
+    .sec6 p {        
         font-size: 3.5em;
         line-height: 37px;
     }
