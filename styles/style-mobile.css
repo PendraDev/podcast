@@ -107,7 +107,7 @@ iframe {
     margin: auto;
     width: 80%;
     transform: skew(0deg, 5deg) translateY(-80PX) ;
-    ;
+    
 }
 .container3 {
     transform: skew(0deg, 5deg) translateY(-70PX);
@@ -145,6 +145,32 @@ iframe {
     width: 100%;
     margin: 0px;
 }
+
+.sec5 h2 {
+    padding-left: 30px;
+    padding-bottom: 20px;    
+    font-weight: 500;
+    line-height: 42px;
+    font-size: 3.6em;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:black;
+}
+.gallery2 img {
+    display: block;
+    margin-top: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.sec5 p {
+    width: 100%;
+    margin-top: 1.5em;
+    font-weight: 600;    
+    line-height: 22px;
+    font-size: 2.4em;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+
 
 @media screen and (min-width: 601px) {
     .sec1 h1 {
@@ -184,4 +210,14 @@ iframe {
     .myButton {      
         font-size: 3.5em;
         line-height: 37px ;
-  }
+    }
+    .sec5 h2 {
+        font-size: 7em;
+        line-height: 80px;
+    }        
+    .sec5 p {        
+        font-size: 3.5em;
+        line-height: 37px;
+    }
+
+}
