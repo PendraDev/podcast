@@ -214,6 +214,9 @@ footer h3 {
     font-size: 1.4em;
 }
 .fontawesome {
+    display: flex;
+    justify-content: center;
+    
     margin: auto;
     width: 55%;
     padding-left: 7px;    
