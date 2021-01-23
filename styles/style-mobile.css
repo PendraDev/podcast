@@ -9,7 +9,7 @@ html {
 body {
     /*border: solid 3px red;*/ 
     width: 100%;       
-    max-width: 400px;
+    max-width: 375px;
     min-width: 275px;
     
     /*background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);*/
@@ -81,7 +81,7 @@ label.logo {
     transform: skew(0deg, 5deg);
 }
 .container1 h1 {
-    padding: 15px 0 ;    
+    padding: 0 0 15px 0 ;    
     line-height: 42px;
     font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -105,7 +105,7 @@ a {
     line-height: 22px ;
     font-weight:bold;
     font-family: 'IBM Plex Mono', monospace;
-	padding:11px 50px;
+	padding:13px 50px;
     text-decoration:none; 
     text-align: center;
     background-color:#00F3BB;	
@@ -225,7 +225,7 @@ iframe {
 }
 
 .sec6 {
-    height: 300px;    
+    height: 325px;    
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     transform: skew(0deg, -5deg) translateY(70px);
 }
@@ -235,9 +235,9 @@ iframe {
     padding: 0 30px;
 }
 .fondo {
-    height: 50px;
+    height: 40px;
     background:white;
-    transform: skew(0deg, 0deg) translateY(-40PX);
+    transform: skew(0deg, 0deg) translateY(4PX);
 }
 .sec6 h2 { 
     
@@ -254,24 +254,24 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding:11px 25px;
+    padding: 13px 25px;
 }
 footer {
-    
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding: 30px 0;    
+    transform:  translateY(15px);
 }
 footer h3 {
+    font-family: "IBM Plex Mono";
     text-align: center;
     font-size: 1.4em;
+    margin-bottom: 15px;
 }
 .fontawesome {
+    font-size: 5px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-between;
     margin: auto;
-    width: 55%;
-    padding-left: 7px;    
+    width: 55%;        
       
 }
 
