@@ -31,19 +31,19 @@ label.logo {
 
   nav ul{
     float: right;
-    margin-right: 20px;
+    margin-right: 100px;
   }
 
   nav ul li{
     z-index: 1;
     display: inline-block;
-    line-height: 80px;
+    line-height: 60px;
     margin: 0 5px;
   }
 
   nav ul li a{
     color: black;
-    font-size: 17px;
+    font-size: 1.2vw;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -317,103 +317,74 @@ footer h3 {
     }
   }
 
-/*
+
   @media screen and (min-width: 700px) {
-    .checkbtn{
-        display: block;
+    body {
+        max-width: 1440px;
+    }
+    label.logo {           
+        padding-left: 100px
+    }
+    nav img {
+        width: 36px;
+        margin-top:  25px; ;
+            }
+    nav ul li {        
+        margin: 30px 20px;
+        line-height: 26px;
+        font-family: 'IBM Plex Mono', sans-serif;
+        text-align: left;       
+
+    }
+    .sec1 {
+        transform: skew(0deg, -5deg) translateY(75px);
+    }
+    .container1 {        
+        padding-left: 200px;            
+    }
+    .container1 h1 {        
+        padding: 0 0 15px 0 ;    
+        line-height: 50px;
+        font-size: 4vw;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .container1 h1 span {
         
-      }
-        ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #0000EC;
-        top: 44px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-      }
-      nav ul li{
-        display: block;
-        margin: 50px 0;
-        line-height: 15px;
-      }
-      nav ul li a{
-        font-size: 16px;
-      }
-      a:hover,a.active{
-        background: none;
-        color: #0082e6;
-      }
-      #check:checked ~ ul{
-        left: 0;
-      }
     }
+    .container1 p {
+        width: 90%;
+        padding: 10px 400px 50px 0;
+        line-height: 26px;
+        font-size: 1.2vw;
+        font-family: 'IBM Plex Mono', monospace;
     }
-    .container1 {
-        padding-left: 70px;
-    }
-    .sec1 h1 {
-      font-size: 7em;
-      line-height: 80px;
-    }
-    .sec1 p {
-        font-size: 3.5em;
-        line-height: 37px;
-    }     
-    .sec2 h2 {
-        margin: 50px 0;
-        padding-top: 90px;
-        padding-left: 70px;
-        font-size: 6.5em;
-        line-height: 75px;
-    }
-    .sec3 h2 {
-        padding-left: 70px;
-        font-size: 7em;
-        line-height: 80px;
-    }
-    .sec3 p {
-        padding-left: 70px;
-        font-size: 3.5em;
-        line-height: 37px;
-    }  
-    .sec4 h2 {
-        padding-left: 70px;
-        font-size: 7em;
-        line-height: 80px;
-    }  
-    iframe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 70px;
-        padding-right: 100px;
-        width: 100%;
-        height: 850px;
-    } 
     .myButton {      
-        font-size: 3.5em;
-        line-height: 37px ;
+        font-size: 1.3vw;     
+        display: inline;
+        
+        
+        
     }
-    .sec5 h2 {
-        padding-left: 70px;
-        font-size: 7em;
-        line-height: 80px;
-    }        
-    .sec5 p {        
-        font-size: 3.5em;
-        line-height: 37px;
+    .sec2 {        
+        transform: skew(0deg, -5deg) translateY(130px);
+                
+    }
+    .container2 h2 {
+        margin-left: 170px ;
+        padding-top: 90px;   
+    }
+    .containerframes {
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    iframe {
+        position: relative;
+        width: 620px;
+        height: 320px;
+        padding: 15px 40px;
+       
+        
     }
     
-    .container6 h2 {
-        padding-left: 70px;
-        font-size: 7em;
-        line-height: 80px;
-    }        
-    .sec6 p {        
-        font-size: 3.5em;
-        line-height: 37px;
-    }
 }
-*/
