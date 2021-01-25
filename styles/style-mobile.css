@@ -315,8 +315,20 @@ footer h3 {
     }
   }
 
+  @media screen and (min-width: 700px) {  
+    body {
+        max-width: 899px;
+    }
+    iframe {
+        position: relative;
+        width: 350px;
+        height: 310px;
+        padding: 0 15px;
+               
+    }  
 
-  @media screen and (min-width: 700px) {
+  }
+  @media screen and (min-width: 900px) {
     body {
         max-width: 1280px;
     }
