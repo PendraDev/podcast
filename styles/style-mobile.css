@@ -34,8 +34,7 @@ label.logo {
     margin-right: 80px;
   }
 
-  nav ul li{
-    z-index: ;
+  nav ul li{    
     display: inline-block;
     line-height: 40px;
     margin: 0 5px;
@@ -373,13 +372,13 @@ footer h3 {
         padding-top: 90px;   
     }
     .containerframes {
-        margin-left: 50px;
+        margin-left: 70px;
         margin-right: 50px;
         
     }
     iframe {
         position: relative;
-        width: 540px;
+        width: 500px;
         height: 310px;
         padding: 0 30px;
        
