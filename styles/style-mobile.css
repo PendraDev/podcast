@@ -31,20 +31,20 @@ label.logo {
 
   nav ul{
     float: right;
-    margin-right: 100px;
+    margin-right: 80px;
   }
 
   nav ul li{
-    z-index: 1;
+    z-index: ;
     display: inline-block;
-    line-height: 60px;
+    line-height: 40px;
     margin: 0 5px;
   }
 
   nav ul li a{
     color: black;
     font-size: 1.2vw;
-    padding: 7px 13px;
+    padding: 4px 8px;
     border-radius: 3px;
     text-transform: uppercase;
     text-decoration: none;
@@ -80,8 +80,7 @@ label.logo {
     padding-left: 30px;
     transform: skew(0deg, 5deg);
 }
-.container1 h1 {
-    padding: 0 0 15px 0 ;    
+.container1 h1 {        
     line-height: 42px;
     font-size: 3.6em;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -320,7 +319,7 @@ footer h3 {
 
   @media screen and (min-width: 700px) {
     body {
-        max-width: 1440px;
+        max-width: 1280px;
     }
     label.logo {           
         padding-left: 100px
@@ -342,27 +341,27 @@ footer h3 {
     .container1 {        
         padding-left: 200px;            
     }
-    .container1 h1 {        
-        padding: 0 0 15px 0 ;    
-        line-height: 50px;
+    .container1 h1 {
+        letter-spacing: 6px ;           
+        line-height: 40px;
         font-size: 4vw;
         font-family: 'IBM Plex Sans', sans-serif;
     }
-    .container1 h1 span {
-        
+    br {
+        display: none;
     }
     .container1 p {
+        transform: translateY(20px);
         width: 90%;
-        padding: 10px 400px 50px 0;
+        padding: 0 23em 5.5em 0;
         line-height: 26px;
         font-size: 1.2vw;
         font-family: 'IBM Plex Mono', monospace;
+
     }
     .myButton {      
         font-size: 1.3vw;     
-        display: inline;
-        
-        
+        display: inline;              
         
     }
     .sec2 {        
@@ -380,9 +379,9 @@ footer h3 {
     }
     iframe {
         position: relative;
-        width: 620px;
-        height: 320px;
-        padding: 15px 40px;
+        width: 540px;
+        height: 310px;
+        padding: 0 30px;
        
         
     }
