@@ -225,7 +225,7 @@ iframe {
 .sec6 {
     height: 325px;    
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    transform: skew(0deg, -5deg) translateY(250px);
+    transform: skew(0deg, -5deg) translateY(100px);
 }
 
 .container6 {
@@ -256,7 +256,7 @@ iframe {
 }
 footer {
     padding: 30px 0;    
-    transform:  translateY(210px);
+    transform:  translateY(60px);
 }
 footer h3 {
     font-family: "IBM Plex Mono";
@@ -443,16 +443,8 @@ footer h3 {
     }
     .gallery2 img{
         flex: 1;
-    }
-    
-    }  
-    .sec5 {
-        transform: translateY(130px);  
     } 
-    .sec6 {
-        
-    }   
-        
+    
         
     
         
