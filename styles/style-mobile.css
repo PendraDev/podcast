@@ -206,7 +206,7 @@ iframe {
     color:black;
 }
 .gallery2 img {
-    display: block;
+    display: flex;
     margin-top: 6em;
     margin-left: auto;
     margin-right: auto;
@@ -225,7 +225,7 @@ iframe {
 .sec6 {
     height: 325px;    
     background: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    transform: skew(0deg, -5deg) translateY(70px);
+    transform: skew(0deg, -5deg) translateY(250px);
 }
 
 .container6 {
@@ -233,9 +233,9 @@ iframe {
     padding: 0 30px;
 }
 .fondo {
-    height: 40px;
+    height: 38px;
     background:white;
-    transform: skew(0deg, 0deg) translateY(4PX);
+    transform: skew(0deg, 0deg) translateY(-10PX);
 }
 .sec6 h2 { 
     
@@ -256,13 +256,13 @@ iframe {
 }
 footer {
     padding: 30px 0;    
-    transform:  translateY(15px);
+    transform:  translateY(210px);
 }
 footer h3 {
     font-family: "IBM Plex Mono";
     text-align: center;
     font-size: 1.4em;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 .fontawesome {
     font-size: 6px;
@@ -419,8 +419,15 @@ footer h3 {
     .sec4 {
         transform: translateY(130px);   
     }
+    .sec4 h2 {
+        padding: 0 0 40px 120px;
+    }
     .sec5 {
         transform: translateY(130px);  
+    }
+    .sec5 h2 {
+        padding-top: 50px;
+        padding-left: 120px;
     }
     .gallery  {        
         display:  grid; 
@@ -429,10 +436,25 @@ footer h3 {
                        "1fr 1fr 1fr" 33.33vh; 
         
     }   
-        
-        
-        
+    .gallery2  {        
+        display:  flex;
+        width: 100%;
+             
     }
+    .gallery2 img{
+        flex: 1;
+    }
+    
+    }  
+    .sec5 {
+        transform: translateY(130px);  
+    } 
+    .sec6 {
+        
+    }   
+        
+        
+    
         
     
 }
