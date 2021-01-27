@@ -217,7 +217,7 @@ iframe {
     margin-top: 1.5em;
     font-weight: 600;    
     line-height: 22px;
-    font-size: 2.4em;
+    font-size: 1.6vw;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
 }
@@ -378,7 +378,7 @@ footer h3 {
         
     }
     .sec2 {        
-        transform: skew(0deg, -5deg) translateY(130px);
+        transform: skew(0deg, -7deg) translateY(130px);
                 
     }
     .container2 h2 {
@@ -388,6 +388,7 @@ footer h3 {
     .containerframes {
         margin-left: 70px;
         margin-right: 50px;
+        transform: skew(0deg, 2deg)
         
     }
     iframe {
@@ -426,9 +427,14 @@ footer h3 {
         transform: translateY(130px);  
     }
     .sec5 h2 {
-        padding-top: 50px;
+        padding-top: 80px;
         padding-left: 120px;
+
     }
+    .sec5 p {
+        line-height: 30px;
+    }
+
     .gallery  {        
         display:  grid; 
         grid-auto-flow: dense;
@@ -439,14 +445,26 @@ footer h3 {
     .gallery2  {        
         display:  flex;
         width: 100%;
+        padding: 0 150px 0 150px ;
              
     }
-    .gallery2 img{
-        flex: 1;
+    .gallery2 div{        
+        width: 50%;
     } 
     
+    .sec6 {
+        transform: skew(0deg, -6deg)  translateY(250px);
+    }    
+    .container6 {
+        transform: skew(0deg, 6deg) translateY(130px);
+    }
+    .fondo {
         
-    
-        
-    
+        height: 80px;
+        transform:  translateY(-250px);
+    }   
+    .footer h3 {
+        padding-top: 100px;
+
+    }
 }
