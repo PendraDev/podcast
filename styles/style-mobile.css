@@ -70,7 +70,7 @@ label.logo {
 .sec1 {
     width: 100%;
     background:white;
-    padding: 50px 0 40px 0;
+    padding: 0 0 40px 0;
     transform: skew(0deg, -5deg) translateY(-35px);
 }
 
@@ -81,7 +81,7 @@ label.logo {
 }
 .container1 h1 {        
     line-height: 42px;
-    font-size: 3.6em;
+    font-size: 3.6rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 .container1 h1 span {
@@ -91,7 +91,8 @@ label.logo {
     width: 90%;
     padding: 10px 0 50px 0;
     line-height: 22px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
+    letter-spacing: 0;
     font-family: 'IBM Plex Mono', monospace;
 }
 /*Boton sec1*/
@@ -284,18 +285,16 @@ footer h3 {
     }
     ul {
         z-index: 1;
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #0000EC;
-        top: 44px;
+        position: relative;
+        width: 100%;        
+        background: #0000EC;        
         left: -100%;
         text-align: center;
         transition: all .5s;
     }
     nav ul li {        
         display: block;
-        margin: 30px 20px;
+        margin: 20px 40px;
         line-height: 15px;
         font-family: 'IBM Plex Mono', sans-serif;
         text-align: left;
