@@ -31,18 +31,18 @@ label.logo {
 
   nav ul{
     float: right;
-    margin-right: 80px;
+    margin-right: 20px;
   }
 
   nav ul li{    
     display: inline-block;
-    line-height: 40px;
+    line-height: 28px;
     margin: 0 5px;
   }
 
   nav ul li a{
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.6rem;
     padding: 4px 8px;
     border-radius: 3px;
     text-transform: uppercase;
@@ -210,7 +210,7 @@ iframe {
     margin-top: 6em;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
 }
 .sec5 p {
     width: 100%;
@@ -355,9 +355,9 @@ footer h3 {
         padding-left: 200px;            
     }
     .container1 h1 {
-        letter-spacing: 6px ;           
+        letter-spacing: 0 ;           
         line-height: 40px;
-        font-size: 4vw;
+        font-size: 6.4rem;
         font-family: 'IBM Plex Sans', sans-serif;
     }
     br {
@@ -366,9 +366,10 @@ footer h3 {
     .container1 p {
         transform: translateY(20px);
         width: 90%;
-        padding: 0 23em 5.5em 0;
-        line-height: 26px;
-        font-size: 1.2vw;
+        padding: 0 35rem 5.5rem 0;
+        margin-bottom: 4rem;
+        line-height: 24px;
+        font-size: 1.6rem;
         font-family: 'IBM Plex Mono', monospace;
 
     }
@@ -382,8 +383,10 @@ footer h3 {
                 
     }
     .container2 h2 {
+        transform: skew(0deg, 2deg) translateY(0px);
         margin-left: 170px ;
-        padding-top: 90px;   
+        padding-top: 90px;
+        font-size: 4.8rem;   
     }
     .containerframes {
         margin-left: 70px;
@@ -411,17 +414,20 @@ footer h3 {
     }
     .container3 h2 {        
        padding: 100px 200px 10px 180px; 
+       font-size: 4.8rem;
         
     }
     .container3 p {    
         width: 90%;
-        padding: 5px 180px;        
+        padding: 5px 180px;
+        font-size: 1.6rem;        
     }
     .sec4 {
         transform: translateY(130px);   
     }
     .sec4 h2 {
         padding: 0 0 40px 120px;
+        font-size: 4.8rem;
     }
     .sec5 {
         transform: translateY(130px);  
@@ -429,11 +435,12 @@ footer h3 {
     .sec5 h2 {
         padding-top: 80px;
         padding-left: 120px;
+        font-size: 4.8rem;
 
     }
     .sec5 p {
         line-height: 30px;
-        font-size: 1.6vw;
+        font-size: 2.4rem;
     }
 
     .gallery  {        
@@ -471,7 +478,7 @@ footer h3 {
     .footer h3 {
         padding-top: 100px;
     }
-    .footer {
-        
+    footer {
+        transform:  translateY(50px);
     }
 }
