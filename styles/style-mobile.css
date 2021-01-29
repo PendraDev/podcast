@@ -354,6 +354,7 @@ footer h3 {
         padding-left: 200px;            
     }
     .container1 h1 {
+        display: inline-block;
         letter-spacing: 0 ;           
         line-height: 40px;
         font-size: 6.4rem;
