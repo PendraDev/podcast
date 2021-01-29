@@ -217,7 +217,7 @@ iframe {
     margin-top: 1.5em;
     font-weight: 600;    
     line-height: 22px;
-    font-size: 1.6em;
+    font-size: 2.4rem;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
 }
@@ -241,9 +241,8 @@ iframe {
     
     padding-bottom: 20px;
     text-align: center;    
-    font-weight: 500;
-    line-height: 42px;
-    font-size: 3.6em;
+    font-weight: 500;    
+    font-size: 4.8rem;
     font-family: 'IBM Plex Sans', sans-serif;
     color: white;
 
@@ -255,8 +254,9 @@ iframe {
     padding: 13px 25px;
 }
 footer {
+    background: white;
     padding: 30px 0;    
-    transform:  translateY(110px);
+    transform:  translateY(120px);
 }
 footer h3 {
     font-family: "IBM Plex Mono";
@@ -460,25 +460,28 @@ footer h3 {
         width: 50%;
     } 
     .myButton2 {
-        display: inline-block;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         
     padding: 13px 25px;
     }
     
     .sec6 {
+        height: 450px;
         transform: skew(0deg, -6deg)  translateY(250px);
     }    
     .container6 {
         transform: skew(0deg, 6deg) translateY(130px);
     }
-    .fondo {        
-        height: 80px;
-        transform:  translateY(50px);
-    }   
-    .footer h3 {
+      
+    .footer h3 {        
         padding-top: 100px;
     }
-    footer {
-        transform:  translateY(50px);
+    footer {  
+        height: 150px;
+        padding: 50px 0 0;      
+        background: white;
+        transform:  translateY(180px);
     }
 }
