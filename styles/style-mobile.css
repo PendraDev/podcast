@@ -79,7 +79,8 @@ label.logo {
     padding-left: 30px;
     transform: skew(0deg, 5deg);
 }
-.container1 h1 {        
+.container1 h1 { 
+    padding-top: 10px;       
     line-height: 42px;
     font-size: 3.6rem;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -278,14 +279,14 @@ footer h3 {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 900px){
     .checkbtn{
       display: block;
       
     }
     ul {
         z-index: 1;
-        position: relative;
+        position: absolute;
         width: 100%;        
         background: #0000EC;        
         left: -100%;
@@ -294,12 +295,13 @@ footer h3 {
     }
     nav ul li {        
         display: block;
-        margin: 20px 40px;
+        margin: 20px 30px;
         line-height: 15px;
         font-family: 'IBM Plex Mono', sans-serif;
         text-align: left;
     }
-    nav ul li a{
+    nav ul li a {
+      padding: 0;
       font-size: 16px;
       color: white;
       
@@ -311,24 +313,12 @@ footer h3 {
     }
     #check:checked ~ ul{
       left: 0;
+      margin: 0;
+      
     }
   }
 
-  /*
-  @media screen and (max-width: 700px) {  
-    body {
-       width: 100%;
-    }
-    iframe {
-        position: relative;
-        width: 300px;
-        height: 250px;
-        padding: 0 15px;
-               
-    }  
-
-  }
-  */
+  
   @media screen and (min-width: 900px) {
     body {
         max-width: 1280px;
@@ -341,7 +331,7 @@ footer h3 {
         margin-top:  25px; ;
             }
     nav ul li {        
-        margin: 30px 20px;
+        margin: 30px 10px;
         line-height: 26px;
         font-family: 'IBM Plex Mono', sans-serif;
         text-align: left;       
@@ -374,7 +364,7 @@ footer h3 {
 
     }
     .myButton {      
-        font-size: 1.3vw;     
+        font-size: 1.6rem;     
         display: inline;              
         
     }
